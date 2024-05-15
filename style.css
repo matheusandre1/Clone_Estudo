@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vw;
+    font-family: "Lato", sans-serif;
+    background-color: rgb(230, 230, 250, 0.5);
+}
+
+.banner {
+    display: grid;    
+    height: 200px;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    width: 100%s;
+}
+
+.content>div>img {
+    height: 150px;
+    width: 80%;
+    margin-left: 100px;
+    padding: 0;
+}
+
+
+.content>div>p {
+    text-align: left;
+    font-size: 24px;
+    align-items: center;
+    margin: 0;
+    margin-left: 205px;
+}
+
+.formulario {
+    margin-left: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    width: 80%;
+    width: 300px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 195px;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario :hover {
+    opacity: 0.6;
+}
+
+.formulario .senhanova {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #007BFF;
+    text-decoration: none;
+    background-color: white;
+}
+
+.formulario .senhanova:hover {
+    text-decoration: none;
+}
+
+.formulario .criarConta {
+    margin-top: 10px;
+    background-color: green;
+}
+
+.rodape {
+    width: 100%;
+    background-color: rgb(230, 230, 250, 0.5);
+}
